@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice HTLM</title>
+</head>
+
+<body>
+    <h1>Practice HTML Day - 1</h1>
+    
+        <header>
+             <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+        </header>
+
+    <main>
+        <h2>Section 1 - Normal Element</h2>
+        <div>
+            <p><strong>span: </strong> <span>Hello World</span></p>
+            <p><strong>strong: </strong><strong>This is strong element</strong></p>
+            <p><strong>br: </strong>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Saepe, dolorum!</p>
+            <p><strong>hr: </strong>lorem10</p>
+            <hr>
+            <p><strong>ul & li:</strong></p>
+
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Durian</li>
+            </ul>
+            <p><strong>ol & li:</strong></p>
+            <ol>
+                <li>Mr Bean</li>
+                <li>Mr Nguyen</li>
+                <li>Mrs Jame</li>
+            </ol>
+            <p><strong>div:</strong></p>
+            <div>
+                <h5>This is div container</h5>
+                <p>Contain element h5, p and img</p>
+                <img src="https://images.unsplash.com/photo-1655215271909-f894e3dd3f98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                    alt="Natural" style="height: 200px; width: 200px">
+                <a href="https://unsplash.com/photos/9xwLf_csaQ8">Go to URL image</a>
+            </div>
+            <p><strong>iframe:</strong></p>
+            <div>
+                <h5>Youtube video: Study with me</h5>
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0"></iframe>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur <span>Lorem, ipsum.</span> elit. Consequuntur, molestias!</p>
+
+        </div>
+
+        <h2>Section 2 - Form Element</h2>
+        <div>
+            <form action="/personal">
+                <div>
+                    <label for="firstname">Firstname</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+                <div><label for="lastname">Lastname</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div><label for="age">Age</label>
+                    <input type="number" name="age" id="age">
+                </div>
+                <div>
+                    <label for="address">Address</label>
+                    <select id="address">
+                        <option value="USA">USA</option>
+                        <option value="Vietnamese">Vietnamese</option>
+                        <option value="Canada">Canada</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description" cols="20" rows="1"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+        <h2>Section 3 - Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        STT
+                    </th>
+                    <th>
+                        Product
+                    </th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>TV</td>
+                    <td>5.000.000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Table</td>
+                    <td>1.000.000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bed</td>
+                    <td>2.000.000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td></td>
+                    <td>8.000.000</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Section - 3 HTML5</h2>
+        <section>
+            <h3>Using HTML5 in this document</h3>
+            
+            <article>
+                <h4>Article covers me</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos iure nam iste illo temporibus
+                    blanditiis a, ad provident modi tenetur!</p>
+                    <video width="400" controls>
+                        <source src="mov_bbb.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML video.
+                      </video>
+                <aside>
+                    <h5>In aside</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, consequatur.</p>
+                    <p>Now, <mark><time>17:00</time>    </mark> </p>
+                </aside>
+                <address>
+                    Email<br>
+                    dangphuc.com<br>
+                    My home:<br>
+                    Da Nang, Viet Nam
+                </address>
+            </article>
+            
+        </section>
+    </main>
+    <footer>
+        <div>Coppy right by @practiceHTML</div>
+    </footer>
+</body>
+
+</html>
